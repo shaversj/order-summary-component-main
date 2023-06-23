@@ -10,6 +10,10 @@ export default {
       "lg": "1440px",
     },
     extend: {
+      backgroundImage: {
+        "mobile": "url('/src/assets/images/pattern-background-mobile.svg')",
+        "desktop": "url('/src/assets/images/pattern-background-desktop.svg')",
+      },
       colors: {
         "pale-blue": "hsl(225, 100%, 94%)",
         "bright-blue": "hsl(245, 75%, 52%)",
